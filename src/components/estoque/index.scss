@@ -1,0 +1,196 @@
+.estoque {
+
+  .flex-columin {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    gap: 20px;
+    min-height: 380px;
+
+  }
+
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    justify-content: flex-end;
+  }
+
+  .estoque-1 {
+    height: 50px;
+    color: #000000;
+    font-family: Princess Sofia, serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 49.5px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 2;
+  }
+
+  .btnCadastrar {
+    width: 247px;
+    height: 55px;
+    background: rgba(217, 217, 217, 0);
+    border: 2px solid #41629f;
+    cursor: pointer;
+    margin-top: 100px;
+    transition: transform 0.5s ease;
+    border-radius: 10px;
+  }
+
+  .btnCadastrar:hover {
+    background: #41629f;
+  }
+
+  .cadastrar-novo-produto {
+    height: 21px;
+    color: #000000;
+    font-family: Playfair Display, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  .rectangle1 {
+    width: 921px;
+    height: 42px;
+    background: rgba(217, 217, 217, 0);
+    border: 1px solid #41629f;
+    display: flex;
+    flex-direction: row;
+    gap: 110px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .imagem-produto {
+    width: 59px;
+    height: 42px;
+    color: #000000;
+    font-family: Playfair Display, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.328px;
+    text-align: left;
+    margin-left: 10px;
+  }
+
+  .descricao-produto {
+    height: 21px;
+    color: #000000;
+    font-family: Playfair Display, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  .quantidade {
+    height: 21px;
+    color: #000000;
+    font-family: Playfair Display, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  .produto {
+    height: 21px;
+    color: #000000;
+    font-family: Playfair Display, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  .preco {
+    height: 21px;
+    color: #000000;
+    font-family: Playfair Display, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+
+  .custom-file-input {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #41629f;
+    width: 115px;
+    margin-left: 5px;
+}
+
+
+
+
+  form {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 921px;
+    height: 70px;
+    border: 1px solid #41629f;
+    align-items: center;
+  }
+
+  .inputQtd {
+    width: 30px;
+    height: 20px;
+    margin-left: 90px;
+    border: 1px solid #41629f;
+  }
+
+  .inputDescricao{
+    width: 240px;
+    height: 20px;
+    margin-left: 50px;
+    border: 1px solid #41629f;
+  }
+
+  .inputPreco{
+    width: 40px;
+    height: 20px;
+    margin-left: 120px;
+    border: 1px solid #41629f;
+  }
+
+  .inputNome{
+    width: 110px;
+    height: 20px;
+    margin-left: 40px;
+    border: 1px solid #41629f;
+  }
+
+  .botoesForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .btnAdicionarProduto,.btnCancelarProduto{
+    background: rgba(217, 217, 217, 0);
+    border: 2px solid #41629f;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    border-radius: 5px;
+    width: 80px;
+  }
+  .btnAdicionarProduto:hover{
+    background-color: rgb(102, 204, 0);
+  }
+  .btnCancelarProduto:hover{
+    background-color: rgb(204, 0, 0);
+  }
+}

@@ -1,0 +1,171 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    max-width: 1512px;
+    height: 139px;
+    margin: 0 0 0 25px;
+    background: #ffffff;
+    z-index: 55;
+
+
+    .gg-profile {
+        position: absolute;
+        width: 36px;
+        height: 36px;
+        top: 37px;
+        left: 1234px;
+        background: url(https://static.codia.ai/custom_image/2025-04-09/133856/profile-icon.svg) no-repeat center;
+        background-size: cover;
+        z-index: 63;
+        overflow: hidden;
+    }
+
+    .group {
+        position: absolute;
+        width: 26.505px;
+        height: 28.5px;
+        top: 42.5px;
+        left: 1310.496px;
+        background: url(https://static.codia.ai/custom_image/2025-04-09/133856/reservation-icon.svg) no-repeat center;
+        background-size: 100% 100%;
+        z-index: 69;
+    }
+
+    .nossa-marca {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: absolute;
+        height: 19px;
+        top: 53px;
+        left: 867px;
+        color: #41629f;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 18.75px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 57;
+        text-decoration: none;
+    
+    }
+
+    
+
+
+    .produtos {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: absolute;
+        height: 19px;
+        top: 53px;
+        left: 1004px;
+        color: #41629f;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 18.75px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 58;
+        text-decoration: none;
+    }
+ 
+
+    .contato {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: absolute;
+        height: 19px;
+        top: 53px;
+        left: 1111px;
+        color: #41629f;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 18.75px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 60;
+        text-decoration: none;
+    }
+  
+
+    .home {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: absolute;
+        height: 19px;
+        top: 53px;
+        left: 783px;
+        color: #41629f;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 18.75px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 59;
+        text-decoration: none;
+    }
+ 
+
+    .reservas {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: absolute;
+        height: 14px;
+        top: 72px;
+        left: 1303px;
+        color: #41629f;
+        font-family: 'Roboto', sans-serif;
+        ;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 14px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 71;
+    }
+
+    .login {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: absolute;
+        height: 14px;
+        top: 73px;
+        left: 1237px;
+        color: #41629f;
+        font-family: 'Roboto', sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 14px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 64;
+    }
+
+    .nossa-marca, .produtos,.group,.gg-profile,.contato,.home {
+       // display: inline-block;
+       // padding: 10px 20px;
+       // color: #fff;
+        //background-color: #007bff;
+       // border-radius: 5px;
+        text-decoration: none;
+        transition: transform 0.3s ease;
+    }
+    
+    .group:hover , .gg-profile:hover, .home:hover, .contato:hover, .produtos:hover, .nossa-marca:hover{
+        transform: scale(1.1);
+        //background-color: #0056b3;
+    }
+    
+
+}

@@ -1,0 +1,63 @@
+.main-container {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 20px;
+
+
+    .reservas-1 {
+        height: 50px;
+        color: #000000;
+        font-family: Princess Sofia;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 49.5px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+
+    .flex-row-b {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 256px;
+        height: 27px;
+        z-index: 28;
+    }
+
+    .tabler-bell-heart {
+        flex-shrink: 0;
+        position: relative;
+        width: 24px;
+        height: 24px;
+        background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-07/owyZzdOSBw.png) no-repeat center;
+        background-size: cover;
+        z-index: 28;
+        overflow: hidden;
+    }
+
+    .reservas-em-andamento {
+        flex-shrink: 0;
+        position: relative;
+        height: 27px;
+        color: #000000;
+        font-family: Playfair Display;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 26.66px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 16;
+    }
+
+
+
+}

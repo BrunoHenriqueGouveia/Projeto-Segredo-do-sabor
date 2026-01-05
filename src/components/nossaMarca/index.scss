@@ -1,0 +1,288 @@
+.fundo-nossa-marca {
+    position: relative;
+    max-width: 1512px;
+    height: 868px;
+    margin: 0 0 0 25px;
+    background: url(https://static.codia.ai/custom_image/2025-04-09/133856/brand-background.svg) no-repeat center;
+    background-size: cover;
+    z-index: 11;
+
+    .bi-wind {
+        position: absolute;
+        width: 119px;
+        height: 119px;
+        top: 5px;
+        left: 768px;
+        z-index: 9;
+        overflow: hidden;
+    }
+
+    .cone-ilustre {
+            position: absolute;
+            width: 703.216px;
+            height: 663.147px;
+            top: 50px;
+            left: 774.392px;
+            background-size: cover;
+            z-index: 13;
+    }
+
+    .nossa-marca-1 {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: absolute;
+        height: 50.173px;
+        top: 60px;
+        left: 331px;
+        color: #000000;
+        font-family: 'Princess Sofia', cursive;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 49.5px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 14;
+    }
+
+    .texto-sobre-marca {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: absolute;
+        width: 555px;
+        height: 230px;
+        top: 180px;
+        left: 180px;
+        color: #000000;
+        font-family: 'Playfair Display', serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 21.328px;
+        text-align: left;
+        z-index: 12;
+    }
+
+
+    .rectangle-2 {
+        position: absolute;
+        width: 301px;
+        height: 154.534px;
+        top: 440px;
+        left: 135px;
+        background: rgba(217, 217, 217, 0);
+        /* Fundo transparente */
+        border: 1px solid #41629f;
+        z-index: 17;
+        transition: background-color 0.5s ease;
+        /* Adiciona uma transição suave para a mudança de cor */
+    }
+
+
+
+    .rectangle-2:hover , .rectangle-3:hover, .rectangle-9:hover{
+        background-color: rgba(11, 72, 185, 0.5);
+        /* Muda a cor de fundo para #41629f com 50% de opacidade quando o mouse passa sobre o retângulo */
+    }
+
+
+
+
+
+    .rectangle-3 {
+        position: absolute;
+        width: 295px;
+        height: 154.534px;
+        top: 440px;
+        left: 460px;
+        background: rgba(217, 217, 217, 0);
+        border: 1px solid #41629f;
+        z-index: 20;
+    }
+
+    .missao {
+        position: absolute;
+        width: 295px;
+        height: 154.534px;
+        top: 450px;
+        left: 141px;
+        font-family: 'Pridi', serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24.8px;
+        text-align: left;
+        z-index: 16;
+    }
+
+    .empty {
+        position: relative;
+        color: #000000;
+        font-family: 'Pridi', serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24.8px;
+        text-align: left;
+    }
+
+    .missao-4 {
+        position: relative;
+        color: #000000;
+        font-family: 'Princess Sofia', cursive;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28.8px;
+        text-align: left;
+    }
+
+    .empty-5 {
+        position: relative;
+        color: #000000;
+        font-family: 'Princess Sofia', cursive;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24.8px;
+        text-align: left;
+    }
+
+    .surpreender-conectar-saborear {
+        position: relative;
+        color: #000000;
+        font-family: 'Playfair Display', serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24.8px;
+        text-align: left;
+    }
+
+    .empty-6 {
+        position: relative;
+        color: #000000;
+        font-family: 'Princess Sofia', cursive;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24.8px;
+        text-align: left;
+    }
+
+    .vissao {
+        position: absolute;
+        width: 295px;
+        height: 122.423px;
+        top: 450.637px;
+        left: 477px;
+        font-family: 'Pridi', serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24.8px;
+        text-align: left;
+        z-index: 19;
+    }
+
+    .empty-7 {
+        position: relative;
+        color: #000000;
+        font-family: 'Pridi', serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24.8px;
+        text-align: left;
+    }
+
+    .visao {
+        position: relative;
+        color: #000000;
+        font-family: 'Princess Sofia', cursive;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28.8px;
+        text-align: left;
+    }
+
+    .empty-8 {
+        position: relative;
+        color: #000000;
+        font-family: 'Princess Sofia', cursive;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24.8px;
+        text-align: left;
+    }
+
+    .redefinir-cones-experiencias {
+        position: relative;
+        color: #000000;
+        font-family: 'Playfair Display', serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24.8px;
+        text-align: left;
+    }
+
+    .rectangle-9 {
+        position: absolute;
+        width: 295px;
+        height: 154.534px;
+        top: 620.195px;
+        left: 300px;
+        background: rgba(217, 217, 217, 0);
+        border: 1px solid #41629f;
+        z-index: 23;
+    }
+
+    .valores {
+        position: absolute;
+        width: 295px;
+        height: 80.277px;
+        top: 645.234px;
+        left: 316px;
+        font-family: 'Pridi', serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24.8px;
+        text-align: left;
+        text-overflow: initial;
+        white-space: nowrap;
+        z-index: 22;
+    }
+
+    .empty-space {
+        position: relative;
+        color: #000000;
+        font-family: 'Pridi', serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24.8px;
+        text-align: left;
+    }
+
+    .valores-a {
+        position: relative;
+        color: #000000;
+        font-family: 'Princess Sofia', cursive;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28.8px;
+        text-align: left;
+    }
+
+    .line-break {
+        position: relative;
+        color: #000000;
+        font-family: 'Princess Sofia', cursive;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24.8px;
+        text-align: left;
+    }
+
+    .values-text {
+        position: relative;
+        color: #000000;
+        font-family: 'Playfair Display', serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24.8px;
+        text-align: center;
+    }
+
+}

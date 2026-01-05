@@ -1,0 +1,27 @@
+.filtro-reservas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .botao {
+        position: relative;
+        width: 150px;
+        height: 57px;
+        background: #41629f;
+        z-index: 9;
+        border: #41629f;
+        margin-bottom: 15px;
+        cursor: pointer;
+        color: aliceblue;
+    }
+
+    table {
+        border: 2px solid #41629f;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        border: 1px solid #41629f;
+    }
+}

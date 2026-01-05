@@ -1,0 +1,24 @@
+.logo {
+    text-decoration: none;
+    transition: transform 0.3s ease;
+
+    img {
+        position: absolute;
+        width: 206.593px;
+        //height: 124px;
+        top: 10px;
+        left: 10px;
+        z-index: 56;
+        height: auto;
+        /* Mantém a proporção da imagem */
+        transition: transform 0.5s ease-in-out;
+        /* Adiciona uma transição suave para transformações */
+
+    }
+
+
+}
+
+.logo img:hover {
+    transform: scale(1.1);
+}
